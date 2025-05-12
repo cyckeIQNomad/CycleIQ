@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CycleIQ - Investing Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0a0f1c;
+      color: #e1f8ff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: #0f172a;
+    }
+    header img {
+      height: 50px;
+    }
+    nav {
+      display: flex;
+      gap: 1.2rem;
+      align-items: center;
+    }
+    nav a, nav button {
+      color: #e1f8ff;
+      text-decoration: none;
+      font-weight: bold;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 0.95rem;
+    }
+    .connect-button {
+      background-color: #00FFA3;
+      color: #0a0f1c;
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: #0c1326;
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      color: #b5e3ff;
+      max-width: 800px;
+      margin: auto;
+    }
+    .levels {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 3rem 2rem;
+    }
+    .level {
+      background: #111827;
+      padding: 1.5rem;
+      border-radius: 12px;
+      max-width: 300px;
+      flex: 1 1 280px;
+    }
+    .level h3 {
+      color: #00FFA3;
+      font-size: 1.3rem;
+    }
+    .level p {
+      margin: 1rem 0;
+    }
+    .level a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #0a0f1c;
+      background: #00FFA3;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="CycleIQ Logo">
+    <nav>
+      <a href="#">Home</a>
+      <a href="membership.html">Membership</a>
+      <a href="articles.html">Articles</a>
+      <a href="about.html">About</a>
+      <a href="#">Log In</a>
+      <a href="#">Sign Up</a>
+      <button class="connect-button">Connect Wallet</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to the CycleIQ Investing Dashboard</h1>
+    <p>We’re excited to have you here. This is your gateway to structured trading knowledge, real-time insights, and a focused path to financial independence. Whether you're just starting or a seasoned trader, you're in the right place to level up your skills and strategies.</p>
+  </section>
+
+  <section class="levels">
+    <div class="level">
+      <h3>Beginner Level 1</h3>
+      <p>Master the basics of trading through accessible lessons and step-by-step guides in technical analysis.</p>
+      <a href="#">View Courses</a>
+    </div>
+    <div class="level">
+      <h3>Intermediate Level 2</h3>
+      <p>Expand your trading toolbox and learn how to structure your setups and strategies with discipline.</p>
+      <a href="#">Membership</a>
+    </div>
+    <div class="level">
+      <h3>Advanced Level 3</h3>
+      <p>Refine your edge and approach the market like a pro. Learn to think, act, and execute like a top trader.</p>
+      <a href="#">Join the Team</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 CycleIQ. All rights reserved.
+  </footer>
+</body>
+</html>
